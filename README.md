@@ -1,6 +1,10 @@
 # Instalación de la aplicación
 
-## Como es un archivo comprimido tiene todas las dependencias instaladas, por lo cual lo que se necesitaría es
+## Clonar el proyecto
+
+Al haber clonado el proyecto, entro a la raíz del proyecto y ejecuto el comando
+
+    composer install
 
 ## Levantar el servidor
 
