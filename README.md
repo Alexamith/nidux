@@ -2,9 +2,28 @@
 
 ## Clonar el proyecto
 
+    git clone https://github.com/Alexamith/nidux.git
+
 Al haber clonado el proyecto, entro a la raíz del proyecto y ejecuto el comando
 
     composer install
+
+Configuración archivo .env
+
+    DB_CONNECTION=pgsql
+    DB_HOST=127.0.0.1
+    DB_PORT=5432
+    DB_DATABASE="nombre de la base de datos"
+    DB_USERNAME="Nombre de usuario"
+    DB_PASSWORD="Contraseña"
+
+Generar Key
+
+    php artisan key:generate
+
+Ejecutar migraciones
+
+    php artisan migrate
 
 ## Levantar el servidor
 
